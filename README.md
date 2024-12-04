@@ -21,6 +21,7 @@ A web application to track and manage the Universal Tennis Rating (UTR) of tenni
 - **Database**: MongoDB
 - **Authentication**: JSON Web Tokens (JWT)
 
+```
 backend/
 ├── config/          # Database configuration
 ├── controllers/     # Logic for API endpoints
@@ -39,6 +40,7 @@ frontend/
 │   ├── App.js       # Main application logic
 │   ├── index.js     # Frontend entry point
 │   └── index.css    # Global styles
+```
 ---
 
 ## **Installation**
