@@ -1,0 +1,41 @@
+.match-history-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.match-history-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.match-history-table th,
+.match-history-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.match-history-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.match-history-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
