@@ -1,0 +1,50 @@
+.user-home-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.user-profile {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.user-actions {
+    flex: 2;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-actions h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
